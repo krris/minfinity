@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
 
 </head>
 
@@ -24,13 +25,20 @@
                 </a>
           </div>
 
+          <span class="nav-toggle" style="color:white" onclick="showMenu();">
+          <!-- <span class="nav-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('is-active');" style="color:white"> -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+
           <div class="nav-right nav-menu">
               <a class="navbar-item" href="https://twitter.com/krrispl" target="_blank">
-                <span class="icon" style="color: #fff;">
+                <span id="twitter-icon" class="icon" style="color:white">
                   <i class="fa fa-lg fa-twitter"></i>
                 </span>
               </a> 
-          </div>
+          </div> 
         </div>
       </header>
     </div>
@@ -87,6 +95,24 @@
       </div>
     </div>
 
+    <div class="hero-foot">
+      <div class="container">
+        <div class="content has-text-centered">
+          <!-- <p>
+            <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          </p> -->
+          <!-- <p>
+            
+            <a class="icon" href="https://twitter.com/krrispl">
+              <span class="icon" style="color: #fff;">
+              <i class="fa fa-lg fa-twitter"></i>
+              </span>
+            </a>
+          </p> -->
+          <p class="copyright">© KrrisPl. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
 
   </section>
 </body>
