@@ -1,4 +1,13 @@
-figure.main-image{
-    margin: 0 auto;
-    max-width:600px;
+.signup {
+    margin: 10px 0 0 0;
+}
+
+section.gradient {
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+.copyright {
+    color: #fff;
+    font-size: 0.8em;
+    padding-bottom: 10px;
 }
