@@ -7,7 +7,14 @@ section.gradient {
 }
 
 .copyright {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 0.8em;
     padding-bottom: 10px;
+}
+
+.features {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
